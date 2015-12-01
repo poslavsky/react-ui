@@ -2,15 +2,15 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 
 export default class Button extends Component {
-	propTypes: {
-		disabled: React.PropTypes.bool,
-		compact: React.PropTypes.bool,
-		primary: React.PropTypes.bool,
-		scary: React.PropTypes.bool,
-		type: React.PropTypes.string,
-		href: React.PropTypes.string,
-		onClick: React.PropTypes.func
-	}
+	// propTypes: {
+	// 	disabled: React.PropTypes.bool,
+	// 	compact: React.PropTypes.bool,
+	// 	primary: React.PropTypes.bool,
+	// 	scary: React.PropTypes.bool,
+	// 	type: React.PropTypes.string,
+	// 	href: React.PropTypes.string,
+	// 	onClick: React.PropTypes.func
+	// }
 
 	static defaultProps = {
 		disabled: false,
